@@ -16,14 +16,17 @@ label start:
 
     scene bg backrooms
 
-    show gon frick at left
-
+    show gon frick at center
+            
     "Gon" "Fuck you you look like a looooooser... Frick you! (With care)"
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-
+    show gon frick
+    transform move_slide:
+        xalign 1.0 yalign 0.0
+        linear 2.5 xalign 0.0
     show bulbby hi at right
 
     "Bulbby" ":,("
