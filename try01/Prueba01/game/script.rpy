@@ -3,8 +3,19 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+"""
+DECLARACION DE VARIABLES
+"""
 
+"""
+PERSONAJES
+"""
+define g = Character("Gon", color="#D68F27")
+define b = Character("Bulbby", color="#FFF62E")
+
+"""
+TRANSFORMACIONES Y DEMAS COSAS
+"""
 
 # The game starts here.
 
