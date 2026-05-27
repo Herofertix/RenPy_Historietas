@@ -24,7 +24,7 @@ transform move_slide:
 
 # The game starts here.
 
-label start:
+label backrooms:
 
     scene bg backrooms
 
