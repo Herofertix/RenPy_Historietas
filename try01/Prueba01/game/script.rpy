@@ -12,6 +12,8 @@ PERSONAJES
 """
 define g = Character("Gon", color="#D68F27")
 define b = Character("Bulbby", color="#FFF62E")
+define e3 = Character("Eileen", who_font="Roboto-Regular.ttf", what_font="Roboto-Light.ttf")
+ 
 
 """
 TRANSFORMACIONES Y DEMAS COSAS
@@ -21,29 +23,21 @@ TRANSFORMACIONES Y DEMAS COSAS
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg backrooms
 
     show gon frick at center
             
-    "Gon" "Fuck you you look like a looooooser... Frick you! (With care)"
+    g "Fuck you you look like a looooooser... Frick you! (With care)"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
     show gon frick
-    transform move_slide:
-        xalign 1.0 yalign 0.0
-        linear 2.5 xalign 0.0
+    
     show bulbby hi at right
 
-    "Bulbby" ":,("
+    b ":,("
     
-    "Bulbby" "You are a the looser... Bitch"
+    b "You are a the looser... Bitch"
 
+    e3 "Similarly, the who_font and what_font properties set the font used by the different kinds of text."
     # This ends the game.
 
     return
