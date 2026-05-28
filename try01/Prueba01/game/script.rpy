@@ -37,7 +37,7 @@ label tutorials:
     show bulbby hi at left
     with move
 
-    b "Coñete..."
+    b "Rábanos..."
     # This ends the game.
 
     return
