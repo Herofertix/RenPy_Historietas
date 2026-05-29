@@ -11,8 +11,9 @@ DECLARACION DE VARIABLES
 PERSONAJES
 """
 define g = Character("Gon", color="#D68F27")
-define b = Character("Bulbby", color="#FFF62E")
+define b = Character("Bulbby", color="#fff12e")
 define e = Character("Eileen", who_font="Roboto-Regular.ttf", what_font="Roboto-Light.ttf")
+define Bll = Character("Bill Cipher", color="#ffe817")
  
 """
 TRANSFORMACIONES Y DEMAS COSAS
@@ -100,7 +101,7 @@ screen level_menu(adj):
 
         bar adjustment adj style "vscrollbar"
 
-        textbutton _("Ya está por hoy..."):
+        textbutton _("You can't escape"):
             xfill True
             action Return(False)
             top_margin 10
@@ -118,28 +119,37 @@ default level_menu_first_time = True
 label start:
 #end start
 
-    scene bg washington
-    show bulbby hi
+    scene bg stars
+    show bill idle
     with dissolve
 
     window show
 
-    b "Yeeeeeepa mostro!"
+    Bll "We meet again huh?"
 
-    b "Toma tus menús"
+    Bll "I know what you want. But it won't be cheap..."
 
 label level_menu:
 
-    show bulbby hi at left
+    show bill idle at left
     with move
 
+    if level_menu_first_time:
+        $ Bll(_("There is not turning back now..."), interact=False)
+    else:
+        $ e(_("Is there anything else you'd like to see?"), interact=False)
+
+
+
     call screen level_menu(adj=level_menu_adjustment)
-
+    
     $ level = _return
+    Bll "We got a deal then, enjoy..."
 
+    Bll "I know I will..."
 
     call expression level.label from _call_expression
-
+    
 
     jump level_menu
 
