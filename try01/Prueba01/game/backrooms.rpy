@@ -45,5 +45,5 @@ label backrooms:
 
     hide gon frick
     hide bulbby hi
-    
+    hide bg backrooms
     return

@@ -130,7 +130,7 @@ label start:
     Bll "I know what you want. But it won't be cheap..."
 
 label level_menu:
-
+    scene bg stars
     show bill idle at left
     with move
 
