@@ -43,4 +43,7 @@ label backrooms:
     e3 "Similarly, the who_font and what_font properties set the font used by the different kinds of text."
     # This ends the game.
 
+    hide gon frick
+    hide bulbby hi
+    
     return
