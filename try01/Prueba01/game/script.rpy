@@ -66,6 +66,7 @@ init python:
     Section(_("Niveles"))
 
     level("backrooms", _("Backrooms"))
+    level("level02", _("Nightmare"))
 
 
 screen level_menu(adj):
