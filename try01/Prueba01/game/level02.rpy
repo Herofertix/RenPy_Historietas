@@ -5,7 +5,7 @@ define j = Character("Jack", color="#fff240ff")
 
 label level02:
 
-show bg woodsnight1
+show bg starrynight
 with fade
 play music "jack-monologue.mp3"
 
@@ -13,7 +13,7 @@ play music "jack-monologue.mp3"
 
 "{cps=25}At the edge of getting a cold.{/cps}"
 
-"{cps=25}I look up in into the the emptiness of space.{/cps}"
+"{cps=25}I look up into the the emptiness of space.{/cps}"
 
 "{cps=10}And,{/cps} {cps=20}heh...{p}It may sound stupid, but...{/cps}"
 
@@ -21,7 +21,7 @@ play music "jack-monologue.mp3"
 
 "{cps=25}Staring at this, empty, shiny void... Thinking they're the only living being in their galaxy...{/cps}"
 
-"{cps=25}It's... Comforting, in a way...{p}It makes the unknown feel more less scary. More welcoming."
+"{cps=25}It's... Comforting, in a way...{p}It makes the unknown feel less scary. More welcoming."
 
 stop music
 # play audio ambiente frio
