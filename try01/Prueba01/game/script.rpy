@@ -148,10 +148,10 @@ label level_menu:
     Bll "We got a deal then, enjoy..."
 
     Bll "I know I will..."
-
+    hide bill idle
     call expression level.label from _call_expression
     
-
+    
     jump level_menu
 
 
