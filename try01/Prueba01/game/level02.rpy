@@ -24,10 +24,12 @@ play music "jack-monologue.mp3"
 "{cps=25}It's... Comforting, in a way...{p}It makes the unknown feel less scary. More welcoming."
 
 stop music
+play audio "ambience-cold-night.mp3" loop
+show bg woodsnight1
 # play audio ambiente frio
 "Dad" "JACK!!!"
 
-"Dad" "ARE YOU OUTSIDE...{p}AGAIN?!?"
+"Dad" "ARE YOU OUTSIDE?!?{p}AGAIN?!?"
 
 "..."
 
@@ -42,6 +44,12 @@ j "Huhhhhhhh...{p}No...?"
 j "COMING!"
 
 j "Well, at least I got to see the stars..."
+
+j "Man, I still"
+
+play sound "crack.mp3"
+
+j "Huh?"
 
 #Esconder
 hide bg woodnightmare4
